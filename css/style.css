@@ -117,8 +117,7 @@ figure {
 	margin-right: 20px;
 	margin-bottom: 20px;
 
-	background: rgba(255, 0, 0, 0.25);
-	outline: 2px solid white;
+	background: rgba(0, 0, 0, 0.15);
 }
 
 .shop-item:nth-child(3n) {
@@ -182,7 +181,9 @@ figure {
 
 .item-main-block {
 	float: right;
-	min-width: 400px;
+	max-width: 400px;
+	margin: 0;
+	padding: 0;
 	padding-top: 25px;
 
 	background: rgba(255, 0, 0, 0.25);
@@ -190,8 +191,6 @@ figure {
 }
 
 .item-main-block .description {
-	height: 188px;
-	min-width: 400px;	
 	margin-bottom: 40px;
 
 	background: rgba(255, 0, 0, 0.25);
@@ -206,7 +205,6 @@ figure {
 }
 
 .item-main-block .set-parts {
-	height: 168px;
 	margin-top: 66px;
 
 	background: rgba(255, 0, 0, 0.25);
